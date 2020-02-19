@@ -11,14 +11,20 @@ public class ComicStaplerGUI {
     private JPanel panelMain;
     private JButton fileChooserButton;
     private JFileChooser fileChooser;
-    private JTextArea textArea;
     private JButton stapleButton;
-    private JProgressBar progressBar;
+    private JFormattedTextField directoryField;
+    private JLabel directoryLabel;
     String filePath;
 
     public ComicStaplerGUI() {
-        stapleButton.setFont(new Font("Arial", Font.PLAIN, 50));
+        stapleButton.setFont(new Font("Arial", Font.PLAIN, 40));
+        fileChooserButton.setFont(new Font("Arial", Font.PLAIN, 40));
+        directoryField.setFont(new Font("Arial", Font.PLAIN, 20));
+        directoryLabel.setFont(new Font("Arial", Font.PLAIN, 20));
+
         JFileChooser fileChooser = new JFileChooser();
+        directoryField.setEditable(false);
+
         filePath = null;
 
         fileChooserButton.addActionListener(new ActionListener() {
@@ -28,10 +34,17 @@ public class ComicStaplerGUI {
                 fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir")));
                 fileChooser.setDialogTitle("Select a directory containing comics.");
                 fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+
+                Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+                fileChooser.setPreferredSize(new Dimension(screen.width/2, screen.height/2));
+
                 if(fileChooser.showOpenDialog(fileChooserButton) == JFileChooser.APPROVE_OPTION){
                     //
                 }
+
+                //set the filepath as well as the preview filepath text for the user
                 filePath = fileChooser.getSelectedFile().getAbsolutePath();
+                directoryField.setValue(filePath);
             }
         });
 
@@ -53,12 +66,14 @@ public class ComicStaplerGUI {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Application");
+        JFrame frame = new JFrame("ComicStapler");
         frame.setContentPane(new ComicStaplerGUI().panelMain);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
+        
 
     }
 }
