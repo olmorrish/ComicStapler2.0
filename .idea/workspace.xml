@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86f31c9e-7f54-463b-a10b-b9ab45653f3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ComicStapler" />
+  </component>
+  <component name="ProjectId" id="1Y07zqXECLktFsaWhS9OpjZ2k3B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.ComicStaplerGUI">
+    <configuration name="ComicStapler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComicStapler" />
+      <module name="ComicStapler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComicStaplerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComicStaplerGUI" />
+      <module name="ComicStapler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComicStaplerGUI" />
+        <item itemvalue="Application.ComicStapler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86f31c9e-7f54-463b-a10b-b9ab45653f3d" name="Default Changelist" comment="" />
+      <created>1582067922948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582067922948</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="660" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1582078783767">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="660" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1707.920@0.0.1707.920" timestamp="1582078783767" />
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582075503753">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.920@0.0.1707.920" timestamp="1582075503753" />
+    <state x="635" y="216" key="FileChooserDialogImpl" timestamp="1582067932834">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1582067932834" />
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom" timestamp="1582078990171">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1582078990171" />
+    <state width="1664" height="242" key="GridCell.Tab.0.center" timestamp="1582078990171">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1582078990171" />
+    <state width="1664" height="242" key="GridCell.Tab.0.left" timestamp="1582078990171">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1582078990171" />
+    <state width="1664" height="242" key="GridCell.Tab.0.right" timestamp="1582078990171">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1582078990171" />
+  </component>
+</project>
